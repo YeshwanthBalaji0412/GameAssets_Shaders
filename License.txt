@@ -1,0 +1,142 @@
+Game Name: Assets using Generative AI and Shaders
+Course: CSYE7270 – Building Virtual Environments
+Name: Yeshwanth Balaji
+NUID: 002378751
+
+--------------------------------------------------
+LICENSE INFORMATION
+--------------------------------------------------
+
+This project is licensed under the MIT License.
+
+The MIT License permits others to use, copy, modify, and distribute this software
+for academic and learning purposes, provided that proper credit is given to the
+original author.
+
+All original shader customizations, material parameter adjustments, prompt
+engineering work, texture generation, storyboard creation, character design,
+and video documentation created for this assignment belong to the student
+listed above.
+
+--------------------------------------------------
+ORIGINAL WORK IMPLEMENTED
+--------------------------------------------------
+
+The following work was implemented independently for this assignment:
+
+Part A — Generative AI Assets:
+• 10 novel game textures generated using Leonardo AI with ChatGPT-refined prompts
+• Prompt engineering process including initial prompts, refined prompts, and
+  comparison between manual and structured prompting approaches
+• 5 storyboard frames visualizing the Chronos Zero gameplay sequence
+• 2 original character designs (The Operative and Enemy Security Bot) with
+  multiple views and prompt iteration documentation
+
+Part B — Shader Deconstruction and Customization:
+• Detailed video walkthrough explaining each node group in the M_RainDrops material
+• RainSpeed parameter customization demonstrating drizzle (0.2), moderate (0.7),
+  and storm (1.5) rainfall intensities
+• Wetness intensity adjustments showing dry-to-soaked surface transitions
+• Testing and demonstration across different lighting conditions
+• Video narration script structure and shader explanation
+
+--------------------------------------------------
+REFERENCED / LEARNING RESOURCES
+--------------------------------------------------
+
+The following tutorials and resources were used for learning and as the foundation
+for the shader implementation. No code was blindly copied without understanding.
+
+Rain Drops Shader (Primary Tutorial Source):
+Rain Drops Shader - UE4 Materials 101 - Episode 14 by Dean Ashford
+https://youtu.be/5eyq2FJ6lig
+
+The M_RainDrops material graph structure, rain drop texture, and core node
+setup (Animated Mask, Static Mask, Normal Nodes, Top Surface Mask, Wetness
+Control) are based on this tutorial. Customizations including parameter
+adjustments, multi-surface testing, and lighting condition demonstrations
+were implemented independently.
+
+Shader References:
+Dean Ashford YouTube Channel
+https://www.youtube.com/c/DeanAshford/videos
+
+--------------------------------------------------
+TEXTURES AND ASSETS
+--------------------------------------------------
+
+Rain Drop Texture:
+• The rain drop grayscale texture used in the M_RainDrops material is sourced
+  from Dean Ashford's Rain Drops Shader tutorial (Episode 14, UE4 Materials 101)
+• https://youtu.be/5eyq2FJ6lig
+
+AI-Generated Textures (Part A):
+• All 10 game textures were generated using Leonardo AI (https://leonardo.ai/)
+• Prompts were refined using ChatGPT (https://chat.openai.com/)
+• Generated textures are original outputs created for this assignment
+• Google Drive link with all textures:
+  https://drive.google.com/drive/folders/1mQWVE3l7_kotxtYNRzCv6f3gGagQBiMT?usp=sharing
+
+AI-Generated Storyboards (Part A):
+• 5 storyboard frames generated using Leonardo AI
+• Prompts designed with ChatGPT assistance for consistent visual style
+
+AI-Generated Character Designs (Part A):
+• Character 1 — The Operative: generated using Leonardo AI with iterative prompts
+• Character 2 — Enemy Security Bot: generated using Leonardo AI with iterative prompts
+
+--------------------------------------------------
+AI TOOLS DISCLOSURE
+--------------------------------------------------
+
+The following AI tools were used during development:
+
+• ChatGPT — Used for refining texture generation prompts, structuring storyboard
+  prompts, iterating character design prompts, and documentation writing assistance.
+
+• Claude — Used for shader explanation guidance, video script structuring,
+  assignment planning, and understanding material node behavior.
+
+• Leonardo AI — Used for generating all Part A assets including 10 textures,
+  5 storyboard frames, and 2 character designs with multiple views.
+
+All AI-assisted suggestions were reviewed, understood, and implemented manually.
+AI tools were used as learning aids and productivity tools, not as direct
+code generators for the shader implementation.
+
+--------------------------------------------------
+VIDEO & PROJECT LINKS
+--------------------------------------------------
+
+GitHub Repository:
+[INSERT GITHUB LINK]
+
+Shader Walkthrough and Gameplay Video:
+[INSERT YOUTUBE LINK]
+
+Music used in the video:
+• CapCut default background music
+
+--------------------------------------------------
+SOFTWARE AND ENGINE
+--------------------------------------------------
+
+• Unreal Engine 5 (Epic Games) — Free for educational use
+  https://www.unrealengine.com/
+• CapCut — Video editing (free tier)
+  https://www.capcut.com/
+
+--------------------------------------------------
+DECLARATION
+--------------------------------------------------
+
+I confirm that this submission represents my original academic work.
+All external tutorials, AI tools, assets, and resources used during
+development have been properly acknowledged above.
+
+The shader deconstruction video clearly identifies which parts are based
+on the referenced tutorial and which customizations and demonstrations
+are my own original contributions.
+
+This project was developed for educational purposes under the
+requirements of CSYE7270 – Building Virtual Environments.
